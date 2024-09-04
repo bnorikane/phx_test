@@ -1,7 +1,6 @@
 # python script to test Portal Script Runner job
 # Based on DNC Portal Script Runner training
 
-from google.cloud import bigquery
 
 client = bigquery.Client(project='CO Party')
 
@@ -14,7 +13,7 @@ def load_to_bq():
 
 # Check script arguments and dump for debug run
 # if len(sys.argv) > 1:
-#     if sys.argv[1] == 'dump':
+#     if sys.argv[1] == 'dump':C
 #         dump_pdf()
 # else:
 #     #run job
