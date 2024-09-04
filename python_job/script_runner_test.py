@@ -8,7 +8,7 @@ client = bigquery.Client(project='CO Party')
 
 def load_to_bq():
     rescsv = open('pct_area.csv', 'rb')  # NOTE: rb mode
-    client.load_table_from_file(rescsv, 'CO Party.sbx_norikaneb.script_test')
+    client.load_table_from_file(rescsv, 'demscosp.sbx_norikaneb.script_test')
 
 
 # Check script arguments and dump for debug run
